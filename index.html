@@ -11,20 +11,25 @@
     <title>Document</title> 
         
     <header>
-      
+      <navbar>
         <nav>
-        
-            <ul class="nav justify-content-left"><!-- justify Navbar url to left -->
+          <div style="margin: 50px; height: 100px;">
+            <div class="float-md-left float-sm-left float-lg-left navbar-brand-collapse" >
+              <ul class="nav justify-content-left"><!-- justify Navbar url to left -->
                
-                
-                <a class="navbar-brand" href="#">Navbar</a>
-            </ul>
+                  
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  
+              </ul>
+            </div>
+          </div>
+         
+            <div class="fixed-top"> <!-- move navbar to same level as href navbar -->    
+            <div class="float-md-right float-sm-right float-lg-right" > <!-- collapse navbar when reducing screensize -->
             
-            <div class="fixed-top"> <!-- move navbar to same level as href navbar -->
-              <div class="float-md-right float-sm-right float-lg-right"> <!-- collapse navbar when reducing screensize -->
-                  <ul class="nav justify-content-center navbar-light"> 
-                    
-                    <li class="nav-item active justify-content-end">
+              <ul class="nav justify-content-center navbar-light"> 
+              
+                    <li class="nav-item">
                       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -32,18 +37,50 @@
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="portfolio.html">Pricing</a> 
+                      
                     </li>
-                    </div>
+                  
+                   
                   </div>
                 
                  
-            </ul><!-- justify nav bar url to left ul class nav -->
+            </ul><!-- justify nav col-lg  bar url to left ul class nav -->
 
           </nav>
        </div>
+      </navbar>
             </header>
 </head>
 <body>
-    
+  <div style="margin: 60px;">  
+      <div class="row">
+        <div class="col-12">
+         
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail" />
+            </div>
+            <div class="col-12">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="..." class="card-img" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+          </div>
+        </div>
+      </div>
+  </div>
+</div> 
 </body>
 </html>
