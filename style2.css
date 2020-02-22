@@ -1,0 +1,87 @@
+@media (min-width: 768px)
+    .navbar-nav{
+      text-align:center;
+      float:none;
+    }
+   .navbar-nav li{
+      float:none;
+      display:inline-block;
+    }
+
+   .navbar-brand{
+     background-color:teal;
+    color:white;
+    }
+   
+    .fixed-resize-top{
+      position: relative;
+      top: 50px;
+      width: auto;
+      
+  
+  }
+
+  .float-md-right-top{
+    position: relative;
+    top: 50px;
+    width: auto;
+    
+  }
+
+.float-sm-right-top{
+  position: relative;
+  top: 50px;
+  width: auto;
+}
+
+.float-lg-right-top{
+  position: relative;
+  top: 50px;
+  width: auto;
+}
+.navbar-brand-collapse{
+  border-top: 25px blue;
+  background-color:teal;
+ color:white;
+ position: relative;
+ height: -20%;
+ margin-bottom: 40px;
+ width:auto;
+ }
+
+ .container{
+   height: 1000px;
+   width: auto;
+ }
+
+ .img-index-float {
+  float: right;
+  clear: left;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 880px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: auto;
+  right: 0px;
+  bottom:0;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
