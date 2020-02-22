@@ -51,7 +51,7 @@
  }
 
  .container{
-   height: 1000px;
+   height: auto;
    width: auto;
  }
 
@@ -77,19 +77,24 @@
 }
 /* text overlaying images */
 .card-img-overlay {
-  position: absolute;
-  top: auto;
+  position: relative;
+  top: 0;
   right: 0px;
-  bottom:0;
+  bottom:auto;
   background-color: black;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}/* footer background color and height overwrite*/
+  /* padding-left: 20px;
+  padding-right: 20px;*/
+}
+
+/* footer background color and height overwrite*/
+
 .card-body {
   background-color:grey;
   height:150px;
-}/* background overwrite color and height overwrite*/
+}
+
+/* background overwrite color and height overwrite*/
 .card-header {
   background-color:green;
 }
