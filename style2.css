@@ -7,12 +7,12 @@
       float:none;
       display:inline-block;
     }
-
+/* for navbar michael logo*/
    .navbar-brand{
      background-color:teal;
     color:white;
     }
-   
+   /* for mobile friendly*/
     .fixed-resize-top{
       position: relative;
       top: 50px;
@@ -20,25 +20,26 @@
       
   
   }
-
+/* for mobile friendly*/
   .float-md-right-top{
     position: relative;
     top: 50px;
     width: auto;
     
   }
-
+/* for mobile friendly*/
 .float-sm-right-top{
   position: relative;
   top: 50px;
   width: auto;
 }
-
+/* for mobile friendly*/
 .float-lg-right-top{
   position: relative;
   top: 50px;
   width: auto;
 }
+/* for mobile friendly / navbar*/
 .navbar-brand-collapse{
   border-top: 25px blue;
   background-color:teal;
@@ -74,7 +75,7 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-
+/* text overlaying images */
 .card-img-overlay {
   position: absolute;
   top: auto;
